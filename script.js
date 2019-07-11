@@ -1,5 +1,4 @@
 const imageUpload = document.getElementById('imageUpload')
-// var cors = require('cors')
 
 Promise.all([
   faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
